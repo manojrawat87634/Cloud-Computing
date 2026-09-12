@@ -1,17 +1,39 @@
-MODULE 3: BASH SCRIPTING & VERSION CONTROL
-  Description: Shell scripting to automate system operations alongside Git for 
-               version control and collaborative workflows.
+Module 1. (Foundational Skills)
+(i). Linux Command-Line Environment
+(ii). Filesystem Navigation & File Management
+(iii). Permissions, Ownership & Environment Variables
 
-  1. Writing Simple Shell Scripts & Automating Linux Tasks
-     - Scripting Basics (Shebang #!/bin/bash, chmod +x, positional parameters)
-     - Control Flow (if/else, case, comparison operators -eq, -gt, -f, -d)
-     - Loops (for, while loops for processing lists and files)
-     - Text Processing (sed, awk, grep, pattern matching, pipes, redirections)
-     - Functions, Errors & Cron (Error handling set -e, exit codes, crontab automation)
+Module 2. (Script Setup & Shell Fundamentals)
+(i). Shebang (#!/bin/bash) & File Execution (chmod +x)
+(ii). Standard Input, Output & Error Redirection (>, >>, 2>&1)
+(iii). Pipes (|) & Command Substitution ($())
 
-  2. Git and Git Bash
-     - Git Fundamentals (Working directory, Staging area, Local & Remote repos)
-     - Core Workflow (git init, clone, status, add, commit, diff, log, .gitignore)
-     - Branching & Merging (git branch, checkout, switch, merge, conflict resolution)
-     - Remote Operations (git remote, push, pull, fetch, SSH key authentication)
-     - Undo & Recovery (git stash, reset, revert)
+Module 3. (Core Programming Concepts in Bash)
+(i). Variables & Data Types
+(ii). Positional Arguments ($1, $2, $@) & User Input (read)
+(iii). Exit Status ($?) & Basic Error Handling
+
+Module 4. (Control Flow & Logic)
+(i). Conditional Statements (if, elif, else)
+(ii). File & String Testing Operator Rules ([ ] vs [[ ]])
+(iii). Loops (for, while, until) & Loop Control (break, continue)
+
+Module 5. (Advanced Data Structures & Modular Code)
+(i). Indexed & Associative Arrays
+(ii). Functions & Local Variables
+(iii). String Manipulation & Pattern Matching
+
+Module 6. (System Automation & File Processing)
+(i). Stream Editing with sed & awk
+(ii). Text Searching with grep & find
+(iii). Automated Log Parsing & Text Formatting
+
+Module 7. (System Monitoring & Administration Scripts)
+(i). Disk, Memory & Process Monitoring Scripts
+(ii). Automated Backups & File Compression (tar, gzip)
+(iii). Remote Execution via SSH (ssh, scp, rsync)
+
+Module 8. (Task Scheduling & Production Practices)
+(i). Automating Execution with cron & crontab
+(ii). Defensive Scripting (set -e, set -u, set -o pipefail)
+(iii). Script Debugging Techniques (bash -x, shellcheck)
