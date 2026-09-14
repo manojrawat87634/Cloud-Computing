@@ -1,9 +1,4 @@
-#!/bin/bash
 
-# ==============================================================================
-# 1. BASIC ASSIGNMENT (=)
-# Note: STRICTLY NO SPACES around the '=' sign!
-# ==============================================================================
 name="Manoj"
 role="DevOps Engineer"
 age=25
@@ -30,7 +25,6 @@ echo ""
 
 # ==============================================================================
 # 3. ARITHMETIC ASSIGNMENT (( ... ))
-# Uses math assignment operators (=, +=, -=, *=, /=)
 # ==============================================================================
 score=100
 
@@ -55,20 +49,3 @@ echo "Before assignment, environment is: '$environment'"
 
 echo "After assignment, environment is: '$environment'"
 echo ""
-
-# ==============================================================================
-# 5. ASSIGNMENT VS EQUALITY TEST (Comparison)
-# Demonstration of storing data vs checking data
-# ==============================================================================
-target_user="Manoj"
-
-echo "--- 5. Assignment vs Comparison ---"
-# Assignment (= without spaces)
-input_user="Manoj"
-
-# Comparison (= or == inside brackets with spaces)
-if [ "$input_user" = "$target_user" ]; then
-    echo "SUCCESS: Match found for user '$input_user'!"
-else
-    echo "ERROR: User mismatch!"
-fi
