@@ -1,0 +1,7 @@
+read -p "Enter number : " num
+i=1
+while [ i -le num ] ;
+    if [ ((i % 2 )) -eq 0 ]; then
+        echo i
+    fi
+    i=$(( i+1 ))
