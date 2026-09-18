@@ -5,4 +5,4 @@ while [ $i -le $num ] ;do
         echo $i
     fi
     i=$(( i+1 ))
-    done
+done
